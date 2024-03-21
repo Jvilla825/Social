@@ -1,0 +1,147 @@
+header {
+    color: hsl(300, 43%, 22%);
+    font-family: "League Spartan", sans-serif;
+    font-size: 24px;
+
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0; 
+    background-image: url("./bg-pattern-bottom-desktop.svg");
+    padding: 120px;
+}
+
+.announcement {
+    display: flex;
+}
+
+.info {
+    color: rgb(133, 132, 132);
+    font-size: 16px;
+    width: 70%;
+}
+
+h1 {
+    width: 55%;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+}
+
+.header1 {
+    width: 50%;
+}
+
+.ratings {
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    line-height: 1.3;
+}
+
+.rated_one {
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 45px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    color: hsl(300, 43%, 22%);
+    background-color: rgb(241, 237, 245);
+}
+
+.rated_two {
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    margin-left: 10%;
+    color: hsl(300, 43%, 22%);
+    background-color: rgb(241, 237, 245);
+}
+
+.rated_three {
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    margin-left: 20%;
+    color: hsl(300, 43%, 22%);
+    background-color: rgb(241, 237, 245);
+}
+
+.customer1 {
+    background-color: hsl(300, 43%, 22%);
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 240px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.people {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.person1 {
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 8%;
+    color: white;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+    line-height: 20px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 33%;
+    height: 200px;
+}
+
+.person2 {
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 8%;
+    color: white;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+    line-height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 33%;
+    height: 200px;
+}
+
+.person3 {
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 8%;
+    color: white;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+    line-height: 20px;
+    margin-top: 4%;
+    width: 33%;
+    height: 200px;
+}
